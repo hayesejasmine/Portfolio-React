@@ -6,14 +6,14 @@ const styles = {
 
 };
 
-function contactForm() {
+function ContactForm() {
     const [email, setEmail] = useState("");
     const [name, setName] = useState("");
     const [message, setMessage] = useState("");
     const [success, setSuccess] = useState("");
 
     const handleInputChange = (e) => {
-        const { target } e;
+        const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
 
@@ -54,12 +54,12 @@ function contactForm() {
     };
 
     return (
-        <div>
+        <div id="contact">
         <h2 style={styles.h2}>Contact</h2>
-        <div style={styles.email}>
+        <div  style={styles.email}>
             <a href="mailto:hayesejasmine@gmail.com">hayesejasmine@gmail.com</a>
             </div>
-            <form action="mailto:hayesejasmine@gmail.com"> method= "post" encType="txt/plain" style={styles.form} className="form"</form>"
+            <form action="mailto:hayesejasmine@gmail.com" method= "post" encType="txt/plain" style={styles.form} className="form">
             <div style={styles.input}>
           <input
             value={email}
@@ -72,7 +72,7 @@ function contactForm() {
         </div>
         <div style={styles.input}>
           <input
-            value={Name}
+            value={name}
             name="Name"
             onChange={handleInputChange}
             type="text"
@@ -106,4 +106,4 @@ function contactForm() {
     );
 }
 
-export default contactForm;
+export default ContactForm;

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Navbar from "./header";
-import About from "./pages/about";
-import Portfolio from "./pages/portfolio";
-import Contact from "./pages/contact";
-import Resume from "./pages/resume";
-import Footer from "./footer";
+import Navbar from "./Header";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
+import Footer from "./Footer";
 
-export default function main() {
+export default function Main() {
     const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
@@ -22,7 +22,10 @@ export default function main() {
             return <Contact />;
         }
 
-        return <Resume />;
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
+        
     };
 
     const handlePageChange = (page) => setCurrentPage(page);

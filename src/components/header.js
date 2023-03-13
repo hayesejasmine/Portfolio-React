@@ -4,7 +4,7 @@ const styles = {
 
 };
 
-function Navbar ({ currentPage, handlePageChange}) {
+function Header ({ currentPage, handlePageChange}) {
     return (
         <nav style={styles.navbar}>
         <header className= "navbar">
@@ -53,4 +53,4 @@ function Navbar ({ currentPage, handlePageChange}) {
     );
 }
 
-export default Navbar;
+export default Header;
