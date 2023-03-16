@@ -7,26 +7,14 @@ const styles = {
 export default function Resume(){
     return(
     <div id="resume" style={styles.space}>
-        <h2 style={styles.h2}>Resume</h2>
-        <br/>
+        
         <h3 style={styles.h3}>Technical Skills</h3>
-        <h4>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>JQuery</li>
-                <li>React</li>
-                <li>Bootstrap</li>
-                <li>MySQL</li>
-                <li>Express</li>
-                <li>Node</li>
-                <li>APIs</li>
-                <li>Sequelize</li>
+                <li>HTML,  CSS,  Javascript,  JQuery,  React,  Bootstrap,  MySQL,  Express,  Node,  APIs,  Sequelize</li>
             </ul>
-            </h4>
-            <br/>
-
+            
+            
+            <hr className="resume-divider"/>
 <h3 style={styles.h3}>Education</h3>
 
 <ul>
@@ -35,7 +23,7 @@ export default function Resume(){
     <li>East Carolina University- Greenville, NC (2010-2014)- Bachelor of Science in Public Health Concentration- Community Health</li>
 </ul>
 
-
+<hr className="resume-divider"/>
 
             <h3 style={styles.h3}>Work Experience</h3>
             
@@ -109,7 +97,7 @@ export default function Resume(){
     
 
             <br/>
-
+            <hr className="resume-divider"/>
 <h3 style={styles.h3}>Other Skills</h3>
 
 <ul>

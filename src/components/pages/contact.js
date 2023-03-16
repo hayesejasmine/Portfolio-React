@@ -55,39 +55,39 @@ function ContactForm() {
 
     return (
         <div id="contact">
-        <h2 style={styles.h2}>Contact</h2>
+        <h2 style={styles.h2}>Contact Me</h2>
         <div  style={styles.email}>
-            <a href="mailto:hayesejasmine@gmail.com">hayesejasmine@gmail.com</a>
+            <a href="mailto:hayesejasmine@gmail.com"></a>
             </div>
             <form action="mailto:hayesejasmine@gmail.com" method= "post" encType="txt/plain" style={styles.form} className="form">
-            <div style={styles.input}>
+            <div style={styles.input} className="email">
           <input
             value={email}
             name="email"
             onChange={handleInputChange}
             type="email"
-            placeholder="email"
+            placeholder="Email"
             required
           />
         </div>
-        <div style={styles.input}>
+        <div style={styles.input} className="name">
           <input
             value={name}
             name="Name"
             onChange={handleInputChange}
             type="text"
-            placeholder="name"
+            placeholder="Full Name"
             required
           />
         </div>
-        <div style={styles.input}>
+        <div style={styles.input} className="message">
           <input
             style={styles.inputa}
             value={message}
             name="message"
             onChange={handleInputChange}
             type="message"
-            placeholder="message"
+            placeholder="Message"
             required
           />
         </div>
