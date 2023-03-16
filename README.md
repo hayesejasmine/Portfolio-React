@@ -34,4 +34,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 # Mock-Up
 
-<img src="assets/img/mock.png"
+![](https://user-images.githubusercontent.com/114713151/225553699-5f1b710b-2273-4726-ba5e-2194b3217830.png)
