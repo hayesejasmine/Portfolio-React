@@ -192,9 +192,11 @@ font-weight: 300;
 }
 #contact h2{
   margin-left: 40px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
 }
 
-.form input{
+.formgroup textarea{
  margin-left: 40px;
  width: 600px;
  height: 20px;
@@ -207,11 +209,159 @@ font-weight: 300;
   margin-top: 20px;
 }
 
-.message input{
+#message {
   height: 80px;
+  margin-top: 20px;
+  
+}
+
+.name {
   margin-top: 20px;
 }
 
-.name input{
-  margin-top: 20px;
+/* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .nav #about {
+      font-size: 28px;
+      padding-right: 20px;
+  }
+  
+  .nav #about {
+      font-size: 35px;
+  }
+
+  #about h2 {
+      font-size: 35px;
+  }
+
+  #about p {
+      font-size: 16px;
+      /*padding: 0 15px;*/
+      line-height: 1.6;
+      display: flex;
+  }
+
+  footer {
+    width: 20px;
+    height: 15px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONE SCREENS AND SMALLER */
+@media screen and (max-width: 575px) {
+  .nav #about {
+      justify-content: center;
+      padding: 20px;
+  }
+
+ .nav #about {
+      min-height: 80px;
+  }
+
+  #about {
+      flex-direction: column;
+  }
+
+  #about {
+      flex-direction: column;
+  }
+
+  .navbar{
+      border-bottom: 5px solid var(--pop);
+      border-right: none;
+      text-align: center;
+      min-width: 100%;
+      max-width: 100%;
+      padding: 0;
+  }
+
+  #about p {
+      font-size: 16px;
+      line-height: 1.6;
+      width: 90%;
+     margin-left: 25px;
+     word-wrap: break-word;
+     text-align: center;
+  }
+
+  #portfolio h1{
+    text-align: center;
+  }
+
+  .col-md-4 img {
+    position: relative;
+    width: 200px;
+    height: 110px;
+  margin-left: 2px;
+    padding: 10px;
+    padding-left: 0px;
+    justify-content: space-between;
+   
+  }
+
+  .col-md-4 p{
+    font-size: 10px;
+  word-wrap: break-word;
+  }
+  
+
+  #resume {
+    font-size: 16px;
+    margin-left: 30px;
+  }
+
+  #contact{
+    background-color: var(--pop);
+    width: 420px;
+    height: 400px;
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+  #contact h2{
+    margin-left: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+  }
+  
+  .formgroup textarea{
+   margin-left: 20px;
+   width: 350px;
+   height: 20px;
+   padding-bottom: 10px;
+   
+  }
+  
+  .form button{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+ 
+
+  
+
+  footer {
+      flex-direction: column;
+    display: flex;
+    margin-left: 1px;
+    float: left;
+  }
+
+  footer ul {
+      margin-left: -330px;
+      float: left;
+  }
+
+
+  .footer ul img {
+    width: 40px;
+    height: 35px;
+    display: flex;
+    margin-left: 2px;
+    flex-direction: column;
+    word-wrap: break-word;
+    float: left;
+    margin-top: 100px;
+  }
+  
 }
