@@ -1,5 +1,5 @@
 # Portfolio-React
-My professional portfolio, using your new React skills
+My professional portfolio, using React.
 
 # User Story
 AS AN employer looking for candidates with experience building single-page applications
