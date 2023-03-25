@@ -335,7 +335,10 @@ font-weight: 300;
     margin-left: 20px;
     margin-top: 20px;
   }
+  
+ 
 
+  
 
   footer {
       flex-direction: column;
@@ -344,6 +347,10 @@ font-weight: 300;
     float: left;
   }
 
+  footer ul {
+      margin-left: -330px;
+      float: left;
+  }
 
 
   .footer ul img {
