@@ -113,7 +113,7 @@ margin-top: auto;
   footer ul {
     list-style: none;
     display: flex;
-   
+   flex-wrap: wrap;
     justify-content: space-evenly;
     font-size: 30px;
     font-weight: 100;
@@ -336,32 +336,29 @@ font-weight: 300;
     margin-top: 20px;
   }
   
- 
-
-  
 
   footer {
-      flex-direction: column;
-    display: flex;
-    margin-left: 1px;
-    float: left;
-  }
-
-  footer ul {
-      margin-left: -330px;
-  float: left;
-  }
-
-
-  .footer ul img {
-    width: 40px;
-    height: 35px;
-    display: flex;
-    margin-left: 2px;
     flex-direction: column;
-    word-wrap: break-word;
+  display: flex;
+  margin-left: 1px;
+  float: left;
+}
+
+footer ul {
+    margin-left: -330px;
     float: left;
-    margin-top: 100px;
-  }
-  
+}
+
+
+.footer ul img {
+  width: 40px;
+  height: 35px;
+  display: flex;
+  margin-left: 2px;
+  flex-direction: column;
+  word-wrap: break-word;
+  float: left;
+  margin-top: 100px;
+}
+
 }
