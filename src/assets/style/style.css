@@ -343,25 +343,20 @@ font-weight: 300;
   footer {
       flex-direction: column;
     display: flex;
-    margin-left: 1px;
-    float: left;
+    text-align: center;
   }
 
-  footer ul {
-      margin-left: -330px;
-      float: left;
-  }
 
 
   .footer ul img {
     width: 40px;
     height: 35px;
     display: flex;
-    margin-left: 2px;
     flex-direction: column;
     word-wrap: break-word;
-    float: left;
+    float: center;
     margin-top: 100px;
+    text-align: center;
   }
   
 }
