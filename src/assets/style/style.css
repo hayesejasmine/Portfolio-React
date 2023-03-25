@@ -335,17 +335,26 @@ font-weight: 300;
     margin-left: 20px;
     margin-top: 20px;
   }
-  
- .footer {
-    text-align: center;
+
+
+  footer {
+      flex-direction: column;
+    display: flex;
+    margin-left: 1px;
+    float: left;
   }
 
- .footer ul img {
+
+
+  .footer ul img {
     width: 40px;
     height: 35px;
-    float: center;
+    display: flex;
+    margin-left: 2px;
+    flex-direction: column;
+    word-wrap: break-word;
+    float: left;
     margin-top: 100px;
-    text-align: center;
   }
   
 }
