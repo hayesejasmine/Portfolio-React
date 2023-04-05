@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.1ac93ab0.css",
-    "main.js": "/Portfolio-React/static/js/main.aa6cb074.js",
+    "main.css": "/Portfolio-React/static/css/main.882d61f1.css",
+    "main.js": "/Portfolio-React/static/js/main.a162abf2.js",
+    "static/media/scoresocial.png": "/Portfolio-React/static/media/scoresocial.8a64a151777952523c7b.png",
     "static/media/light-abstract-black-and-white-architecture-sky-white-449062-pxhere.com copy.jpg": "/Portfolio-React/static/media/light-abstract-black-and-white-architecture-sky-white-449062-pxhere.com copy.663746e7127c95f67ce6.jpg",
     "static/media/project2.png": "/Portfolio-React/static/media/project2.e83f4a7b36481d92aa4d.png",
     "static/media/Server side API copy.png": "/Portfolio-React/static/media/Server side API copy.505dc84a7ce4944e5b1f.png",
@@ -10,14 +11,15 @@
     "static/media/javascript-password.png": "/Portfolio-React/static/media/javascript-password.7216a93bfcdcdb6723ea.png",
     "static/media/web-api-coding.png": "/Portfolio-React/static/media/web-api-coding.f7a3fd8b7556db330c9c.png",
     "static/media/portfolio2.jpeg": "/Portfolio-React/static/media/portfolio2.29528ed14e0415ca217b.jpeg",
+    "static/media/booksearch.png": "/Portfolio-React/static/media/booksearch.ea6ee7fb6c76919a2664.png",
     "static/media/email.png": "/Portfolio-React/static/media/email.07f00163b6709a23cada.png",
     "static/media/linkedin.png": "/Portfolio-React/static/media/linkedin.e9274126be28f07d14ca.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.1ac93ab0.css.map": "/Portfolio-React/static/css/main.1ac93ab0.css.map",
-    "main.aa6cb074.js.map": "/Portfolio-React/static/js/main.aa6cb074.js.map"
+    "main.882d61f1.css.map": "/Portfolio-React/static/css/main.882d61f1.css.map",
+    "main.a162abf2.js.map": "/Portfolio-React/static/js/main.a162abf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ac93ab0.css",
-    "static/js/main.aa6cb074.js"
+    "static/css/main.882d61f1.css",
+    "static/js/main.a162abf2.js"
   ]
 }
