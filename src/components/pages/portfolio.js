@@ -5,7 +5,8 @@ import ServerSideAPIProject from "../../assets/img/Server side API copy.png";
 import ThirdPartyAPIScheduler from "../../assets/img/Third-Party APIs  Work Day Scheduler copy.png";
 import webAPICodingQuiz from "../../assets/img/web-api-coding.png";
 import MVCproject from "../../assets/img/project2.png";
-
+import MERNproject from "../../assets/img/scoresocial.png";
+import booksearch from "../../assets/img/booksearch.png";
 
 export default function Portfolio() {
     return (
@@ -63,6 +64,23 @@ export default function Portfolio() {
         </a>
     </div>
  </div>
+ <div className="col-md-4">
+    <div className="my-work">
+        <a href="https://book-search-jeh.herokuapp.com/">
+            <img src={booksearch} alt="MERNbooksearch"/>
+            <p>Book Search-MERN application</p>
+        </a>
+    </div>
+ </div>
+ <div className="col-md-4">
+    <div className="my-work">
+        <a href="https://mighty-cliffs-23244.herokuapp.com/">
+            <img src={MERNproject} alt="MERN"/>
+            <p>Project 3-MERN application</p>
+        </a>
+    </div>
+ </div>
+
                     </div>
                 </div>
             
